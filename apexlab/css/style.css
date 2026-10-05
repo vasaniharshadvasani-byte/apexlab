@@ -1,0 +1,3154 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans Bold';
+    src: url('fonts/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans ExtraBold';
+    src: url('fonts/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans Light';
+    src: url('fonts/PlusJakartaSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans Medium';
+    src: url('fonts/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans Regular';
+    src: url('fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans SemiBold';
+    src: url('fonts/PlusJakartaSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Space Grotesk Bold';
+    src: url('fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk Light';
+    src: url('fonts/SpaceGrotesk-Light.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk Medium';
+    src: url('fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk Regular';
+    src: url('fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk SemiBold';
+    src: url('fonts/SpaceGrotesk-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+img {
+    max-width: 100%;
+}
+
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="email"],
+input[type="tel"],
+textarea,
+.input-checkbox {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+.TC {
+    text-align: center;
+}
+
+.TL {
+    text-align: left;
+}
+
+.TR {
+    text-align: right;
+}
+
+.margin_auto {
+    margin: auto;
+    float: none;
+}
+
+.padding {
+    padding: 0;
+}
+
+.al {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.alm {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+abbr[title] {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+}
+
+body {
+    font-family: 'PublicSans-Regular';
+    background-color: #fff;
+
+}
+
+.container {
+    max-width: 1218px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* ==== apex header main start ==== */
+
+.apex-header-main {
+    width: 100%;
+    height: fit-content;
+    background-color: #0B041B;
+    padding: 13px 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+}
+
+.apex-header-main-insit {
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(90deg, rgb(255 255 255 / 14%) 0%, rgb(255 255 255 / 0%) 100%);
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #ffffff26;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apex-header-logo-main {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.apex-header-logo-main-icon {
+    width: 67px;
+    height: 44px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 30px 0px #f51d31a8;
+}
+
+.apex-header-logo-main-icon img {
+    width: 42px;
+    height: 42px;
+}
+
+.apex-header-logo-main-text {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-header-logo-main-text h1 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Space Grotesk Bold';
+    margin-bottom: 0px;
+}
+
+.apex-header-logo-main-text h1 span {
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apex-header-logo-main-text p {
+    color: #F51D31;
+    font-size: 9px;
+    font-family: 'Space Grotesk Bold';
+    margin-bottom: 0px;
+}
+
+.apex-header-menu {
+    width: fit-content;
+    height: fit-content;
+}
+
+.apex-header-menu ul {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.apex-header-menu ul li {
+    list-style: none;
+}
+
+.apex-header-menu ul li a {
+    color: #B0A19A;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans SemiBold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-header-menu ul li a:active {
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apex-header-btn {
+    width: fit-content;
+    height: fit-content;
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 100%);
+    padding: 10px 20px;
+    box-shadow: 0px 0px 30px 0px #f51d31a8;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.apex-header-btn-text {
+    width: fit-content;
+    height: fit-content;
+}
+
+.apex-header-btn-text a {
+    color: white;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.apex-header-btn-icon {
+    width: fit-content;
+    height: fit-content;
+}
+
+.apex-header-btn-icon i {
+    color: white;
+    font-size: 14px;
+}
+
+.apex-header-logo-main {
+    order: 1;
+}
+
+.apex-header-menu {
+    order: 2;
+}
+
+.apex-header-btn {
+    order: 3;
+}
+
+.apex-header-toggle-btn {
+    display: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* ==== apex header main end ==== */
+
+/* ====  apex banner  section start ==== */
+
+.apex-banner-main {
+    width: 100%;
+    height: fit-content;
+    background-color: #0B041B;
+    padding: 70px 0px;
+    position: relative;
+}
+
+.apex-banner-main-insit {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.apex-banner-main-insit::after {
+    content: "";
+    width: 384px;
+    height: 384px;
+    background: linear-gradient(90deg, rgb(245 29 49 / 11%) 62%, rgb(253 115 24 / 10%) 74%);
+    filter: blur(20px);
+    position: absolute;
+    top: -165px;
+    left: -210px;
+    border-radius: 100%;
+    z-index: 999999999999;
+}
+
+.apex-banner-main-insit::before {
+    content: "";
+    width: 384px;
+    height: 384px;
+    background: linear-gradient(90deg, rgb(245 29 49 / 11%) 62%, rgb(253 115 24 / 10%) 74%);
+    filter: blur(20px);
+    position: absolute;
+    top: -68px;
+    right: -99px;
+    border-radius: 100%;
+    z-index: 999999999999;
+}
+
+.apex-banner-main-insit-text {
+    width: 59%;
+    height: fit-content;
+}
+
+.apex-banner-main-insit-text-heading {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 28px;
+}
+
+.apex-banner-main-insit-text-heading h1 {
+    color: white;
+    font-size: 72px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-banner-main-insit-text-heading h1 span {
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apex-banner-main-insit-text-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 28px;
+}
+
+.apex-banner-main-insit-text-pera p {
+    color: #B0A19A;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-banner-main-insit-text-btn-main {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.apex-banner-main-insit-text-btn-main-book-btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 28px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 30px 0px #f51d31a8;
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+}
+
+.apex-banner-main-insit-text-btn-main-book-btn:hover {
+    background: linear-gradient(90deg, rgb(226, 41, 115) 0%, rgba(255, 144, 16, 1) 55%, rgb(207, 24, 24) 100%);
+}
+
+.apex-banner-main-insit-text-btn-main-book-btn a {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-banner-main-insit-text-btn-main-book-btn a i {
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.apex-banner-main-insit-text-btn-main-run {
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 28px;
+    border-radius: 16px;
+    border: 1px solid #ffffff26;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.apex-banner-main-insit-text-btn-main-run:hover {
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+}
+
+.apex-banner-main-insit-text-btn-main-run:hover i {
+    color: white;
+}
+
+.apex-banner-main-insit-text-btn-main-run-text a {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-banner-main-insit-text-btn-main-run-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.apex-banner-main-insit-text-btn-main-run-icon i {
+    font-size: 16px;
+    color: #F51D31;
+}
+
+.apex-banner-main-insit-text-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 92px;
+}
+
+.apex-banner-main-insit-text-box-card {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.apex-banner-main-insit-text-box-card-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f51d311f;
+    border-radius: 12px;
+    border: 1px solid #f51d3152;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-banner-main-insit-text-box-card-icon i {
+    font-size: 16px;
+    color: #F51D31;
+}
+
+.apex-banner-main-insit-text-box-card-text {
+    width: fit-content;
+    height: fit-content;
+}
+
+.apex-banner-main-insit-text-box-card-text h4 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-banner-main-insit-text-box-card-text p {
+    font-size: 10px;
+    color: #B0A19A;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-banner-main-insit-text-box-card-icon-time {
+    width: 40px;
+    height: 40px;
+    background-color: #ff90101a;
+    border-radius: 12px;
+    border: 1px solid #ff901052;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-banner-main-insit-text-box-card-icon-time i {
+    font-size: 16px;
+    color: #FF9010;
+}
+
+.apex-banner-main-insit-text-box-card-icon-expert {
+    width: 40px;
+    height: 40px;
+    background-color: #f3ba2524;
+    border-radius: 12px;
+    border: 1px solid #f3ba254f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-banner-main-insit-text-box-card-icon-expert i {
+    font-size: 16px;
+    color: #F3BA25;
+}
+
+.apex-banner-main-insit-img-main {
+    width: 39%;
+    height: fit-content;
+    border-radius: 24px;
+    position: relative;
+    box-shadow: 0px 0px 60px 0px #f51d311f;
+}
+
+.apex-banner-main-insit-img-main::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: linear-gradient(90deg, rgb(245 29 49 / 24%) 0%, rgb(255 144 16 / 34%) 55%, rgb(243 186 37 / 27%) 100%);
+    filter: blur(20px);
+    z-index: 1;
+}
+
+.apex-banner-main-insit-img-main-insit {
+    width: 100%;
+    height: fit-content;
+    padding: 16px;
+    border-radius: 24px;
+    background-color: rgb(255 255 255 / 9%);
+    position: relative;
+    z-index: 2;
+}
+
+.apex-banner-main-insit-img-main-insit-img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.apex-banner-main-insit-img-main-insit-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid #ffffff1c;
+}
+
+.apex-banner-main-insit-img-main-insit-img::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(3, 1, 1, 0.81) 0%, rgba(3, 1, 1, 0) 50%, rgba(3, 1, 1, 0) 100%);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 2;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.apex-banner-main-insit-img-main-insit-text {
+    width: fit-content;
+    height: fit-content;
+    background-color: #020202e6;
+    border: 1px solid #f51d319c;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 2px 8px;
+    position: absolute;
+    top: 26px;
+    left: 28px;
+    border-radius: 4px;
+}
+
+.apex-banner-main-insit-img-main-insit-text-icon {
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-banner-main-insit-img-main-insit-text-icon i {
+    color: #F51D31;
+    font-size: 12px;
+}
+
+.apex-banner-main-insit-img-main-insit-text-pera {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.apex-banner-main-insit-img-main-insit-text-pera a {
+    color: #F51D31;
+    font-size: 10px;
+    font-family: 'Plus Jakarta Sans Bold';
+    letter-spacing: 2px;    
+}
+
+.apex-banner-main-insit-img-main-insit-text-aston {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.apex-banner-main-insit-img-main-insit-text-aston-text h3 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Space Grotesk Bold';
+}
+
+.apex-banner-main-insit-img-main-insit-text-aston-text p {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-banner-main-insit-img-main-insit-text-aston-btn {
+    width: fit-content;
+    height: fit-content;
+    background-color: #f51d3138;
+    border: 1px solid #f51d31b8;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.apex-banner-main-insit-img-main-insit-text-aston-btn a {
+    color: #F51D31;
+    font-size: 10px;
+    font-family: 'Plus Jakarta Sans Bold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+}
+
+.apex-banner-main-insit-img-main-insit-text-gloss {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apex-banner-main-insit-img-main-insit-text-gloss-detail {
+    width: fit-content;
+    height: fit-content;
+}
+
+.apex-banner-main-insit-img-main-insit-text-gloss-detail p {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-banner-main-insit-img-main-insit-text-gloss-perfecat {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 30px;
+}
+
+.apex-banner-main-insit-img-main-insit-text-gloss-perfecat p {
+    color: #F51D31;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-banner-main-insit-img-main-insit-text-gloss-perfecat-polish-bg {
+    width: 100%;
+    height: 8px;
+    background-color: #0B041B;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.apex-banner-main-insit-img-main-insit-text-gloss-perfecat-polish {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    border-radius: 100px;
+    transition: width 1.5s ease-in-out;
+}
+
+/* ====  apex banner  section end ==== */
+
+/* ==== our core start ====  */
+
+.apex-our-core-main {
+    width: 100%;
+    height: fit-content;
+    padding: 70px 0px;
+    background-color: #0B041B;
+    border-top: 1px solid #ffffff1a;
+}
+
+.apex-our-core-main-insit {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-our-core-main-insit-heading {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-our-core-main-insit-heading-btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 12px;
+    background-color: #f51d311a;
+    border: 1px solid #f51d3145;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.apex-our-core-main-insit-heading-btn a {
+    color: #F51D31;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2.42px;
+}
+
+.apex-our-core-main-insit-heading-our {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 16px;
+}
+
+.apex-our-core-main-insit-heading-our h1 {
+    font-size: 48px;
+    color: white;
+    font-family: 'Space Grotesk Bold';
+    text-align: center;
+}
+
+.apex-our-core-main-insit-heading-our h1 span {
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apex-our-core-main-insit-heading-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 163px;
+}
+
+.apex-our-core-main-insit-heading-pera p {
+    color: #B0A19A;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+    text-align: center;
+}
+
+.apex-our-core-main-insit-heading-pera span {
+    color: #B0A19A;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-our-core-main-insit-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.apex-our-core-main-insit-box-card {
+    width: 32%;
+    height: fit-content;
+    padding: 20px;
+    border: 1px solid #ffffff2b;
+    border-radius: 24px;
+    background: linear-gradient(120deg, rgb(255 255 255 / 5%) 0%, rgb(255 255 255 / 3%) 100%);
+}
+
+.apex-our-core-main-insit-box-card-img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.apex-our-core-main-insit-box-card-img::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-radius: 20px;
+    background: linear-gradient(181deg, rgba(3, 1, 1, 0) 0%, rgba(3, 1, 1, 0.2) 50%, rgba(3, 1, 1, 1) 100%);
+}
+
+.apex-our-core-main-insit-box-card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.apex-our-core-main-insit-box-card-heading {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.apex-our-core-main-insit-box-card-heading-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    border: 1px solid #f51d3180;
+    background-color: #f51d3117;
+    box-shadow: 0px 0px 30px 0px #f51d3178;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-our-core-main-insit-box-card-heading-icon i {
+    color: #F51D31;
+    font-size: 16px;
+}
+
+.apex-our-core-main-insit-box-card-heading-text {
+    width: fit-content;
+    height: fit-content;
+}
+
+.apex-our-core-main-insit-box-card-heading-text h5 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Space Grotesk Bold';
+}
+
+.apex-our-core-main-insit-box-card-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.apex-our-core-main-insit-box-card-pera p {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-our-core-main-insit-box-card-Request {
+    width: 100%;
+    height: fit-content;
+    border-top: 1px solid #ffffff2b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.apex-our-core-main-insit-box-card-Request-icon {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.apex-our-core-main-insit-box-card-Request-icon p {
+    color: #F51D31;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-our-core-main-insit-box-card-Request-icon i {
+    color: #F51D31;
+    font-size: 12px;
+}
+
+.apex-our-core-main-insit-box-card-Request-text {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 30px;
+}
+
+.apex-our-core-main-insit-box-card-Request-text p {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-our-core-main-insit-box-card-heading-premium {
+    width: 40px;
+    height: 40px;
+    background-color: #ff901026;
+    border: 1px solid #ff90109c;
+    box-shadow: 0px 0px 30px 0px #ff901082;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-our-core-main-insit-box-card-heading-premium i {
+    color: #FF9010;
+    font-size: 16px;
+}
+
+.apex-our-core-main-insit-box-card-Request-star {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.apex-our-core-main-insit-box-card-Request-star p {
+    color: #FF9010;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-our-core-main-insit-box-card-Request-star i {
+    color: #FF9010;
+    font-size: 12px;
+}
+
+.apex-our-core-main-insit-box-card-heading-icon-Periodic {
+    width: 40px;
+    height: 40px;
+    background-color: #f3ba2626;
+    border: 1px solid #f3ba267a;
+    box-shadow: 0px 0px 30px 0px #f3ba2694;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-our-core-main-insit-box-card-heading-icon-Periodic i {
+    color: #F3BA26;
+    font-size: 16px;
+}
+
+.apex-our-core-main-insit-box-card-Request-icon-spre {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.apex-our-core-main-insit-box-card-Request-icon-spre p {
+    font-size: 12px;
+    color: #F3BA26;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-our-core-main-insit-box-card-Request-icon-spre i {
+    font-size: 12px;
+    color: #F3BA26;
+}
+
+.apex-our-core-main-insit-box-card-heading-icon-Engine {
+    width: 40px;
+    height: 40px;
+    background-color: #00d49214;
+    border: 1px solid #00d49273;
+    box-shadow: 0px 0px 30px 0px #00d4924f;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-our-core-main-insit-box-card-heading-icon-Engine i {
+    color: #00D492;
+    font-size: 16px;
+}
+
+.apex-our-core-main-insit-box-card-Request-icon-chip {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.apex-our-core-main-insit-box-card-Request-icon-chip p {
+    font-size: 12px;
+    color: #00D492;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-our-core-main-insit-box-card-Request-icon-chip i {
+    font-size: 12px;
+    color: #00D492;
+}
+
+/* ==== our core end ====  */
+
+/* ==== car health section start ====  */
+
+.apex-car-health-main {
+    width: 100%;
+    height: fit-content;
+    padding: 70px 0px;
+    background-color: #0B041B;
+    border-top: 1px solid #ffffff1a;
+}
+
+.apex-car-health-main-insit {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-car-health-main-insit-heading {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 48px;
+}
+
+.apex-car-health-main-insit-heading-box {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: #f51d3114;
+    border: 1px solid #f51d3178;
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.apex-car-health-main-insit-heading-box a {
+    color: #F51D31;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+    letter-spacing: 2.42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-car-health-main-insit-heading-box i {
+    color: #F51D31;
+    font-size: 12px;
+}
+
+.apex-car-health-main-insit-heading-car {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 16px;
+}
+
+.apex-car-health-main-insit-heading-car h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Space Grotesk Bold';
+    text-align: center;
+}
+
+.apex-car-health-main-insit-heading-car h1 span {
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apex-car-health-main-insit-heading-pera {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-car-health-main-insit-heading-pera p {
+    color: #B0A19A;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+    text-align: center;
+}
+
+.apex-car-health-main-insit-heading-pera span {
+    color: #B0A19A;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-car-health-main-insit-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apex-car-health-main-insit-box-card {
+    width: 34%;
+    height: fit-content;
+    padding: 25px;
+    border-radius: 24px;
+    border: 1px solid #ffffff17;
+    background-color: #ffffff03;
+}
+
+.apex-car-health-main-insit-box-card-heading {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-car-health-main-insit-box-card-heading-icon-main {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.apex-car-health-main-insit-box-card-heading-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.apex-car-health-main-insit-box-card-heading-icon i {
+    font-size: 20px;
+    color: #F51D31;
+}
+
+.apex-car-health-main-insit-box-card-heading-text {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-car-health-main-insit-box-card-heading-text h3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Space Grotesk Bold';
+}
+
+.apex-car-health-main-insit-box-card-heading-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 24px;
+}
+
+.apex-car-health-main-insit-box-card-heading-pera p {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-car-health-main-insit-box-card-idle {
+    width: 100%;
+    height: fit-content;
+    background-color: #0202028f;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #ffffff24;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.apex-car-health-main-insit-box-card-idle:nth-last-child(2) {
+    margin-bottom: 67px;
+}
+
+.apex-car-health-main-insit-box-card-idle-icon {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-car-health-main-insit-box-card-idle-icon {
+    color: #F51D31;
+}
+
+.apex-car-health-main-insit-box-card-idle-text {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apex-car-health-main-insit-box-card-idle-text p {
+    color: #B0A19A;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans SemiBold';
+}
+
+.apex-car-health-main-insit-box-card-idle-text span {
+    color: #F51D31;
+    font-size: 10px;
+    font-family: 'Space Grotesk Bold';
+    display: flex;
+}
+
+.apex-car-health-main-insit-box-card-bnt-main {
+    width: 100%;
+    height: fit-content;
+    padding-top: 16px;
+    border-top: 1px solid #ffffff17;
+}
+
+.apex-car-health-main-insit-box-card-bnt-main-insit-btn {
+    width: 100%;
+    height: fit-content;
+    border-radius: 16px;
+    box-shadow: 0px 0px 30px 0px #f51d3170;
+    padding: 16px 0px;
+    background: linear-gradient(90deg, rgb(245 29 49 / 59%) 0%, rgb(255 144 16 / 80%) 55%, rgb(243 186 37 / 50%) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.apex-car-health-main-insit-box-card-bnt-main-insit-btn-icon {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-car-health-main-insit-box-card-bnt-main-insit-btn-icon i {
+    color: white;
+}
+
+.apex-car-health-main-insit-box-card-bnt-main-pera {
+    width: fit-content;
+    height: fit-content;
+}
+
+.apex-car-health-main-insit-box-card-bnt-main-pera a {
+    color: #FEF7F2;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Bold';
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-car-health-main-insit-box-card-bnt-main-text {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-car-health-main-insit-box-card-bnt-main-text p {
+    color: #b0a19ad9;
+    font-size: 10px;
+    font-family: 'Plus Jakarta Sans Regular';
+    text-align: center;
+}
+
+.apex-car-health-main-insit-box-img {
+    width: 64%;
+    height: fit-content;
+    border-radius: 24px;
+    border: 1px solid #ffffff24;
+    padding: 25px;
+    background-color: #ffffff05;
+}
+
+.apex-car-health-main-insit-box-img-text {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.apex-car-health-main-insit-box-img-text p {
+    color: #F51D31;
+    font-size: 15px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-car-health-main-insit-box-img-text h4 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Space Grotesk Bold';
+}
+
+.apex-car-health-main-insit-box-img-text ul {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 16px;
+}
+
+.apex-car-health-main-insit-box-img-text ul li {
+    color: #00D492;
+}
+
+.apex-car-health-main-insit-box-img-insit {
+    width: 100%;
+    height: fit-content;
+    background-color: #0B041B;
+    border: 1px solid #ffffff26;
+    border-radius: 24px;
+    margin-bottom: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-car-health-main-insit-box-img-insit img {
+    width: 70%;
+    height: fit-content;
+}
+
+.apex-car-health-main-insit-box-img-box {
+    width: 100%;
+    height: fit-content;
+    background-color: #0B041B;
+    border: 1px solid #ffffff26;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px;
+    margin-bottom: 10px;
+}
+
+.apex-car-health-main-insit-box-img-box-card {
+    width: fit-content;
+    height: fit-content;
+}
+
+.apex-car-health-main-insit-box-img-box-card p {
+    font-size: 10px;
+    color: #B0A19A;
+    font-family: 'Plus Jakarta Sans Bold';
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+
+.apex-car-health-main-insit-box-img-box-card h5 {
+    font-size: 14px;
+    color: white;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-car-health-main-insit-box-img-box-card h4 {
+    font-size: 14px;
+    color: #FF9010;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+/* ==== car health section end ====  */
+
+/* ==== live gearage section start ==== */
+
+.apex-live-garage-main {
+    width: 100%;
+    height: fit-content;
+    padding: 70px 0px;
+    background-color: #0B041B;
+    border-top: 1px solid #ffffff1a;
+}
+
+.apex-live-garage-main-insit {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-live-garage-main-insit-heading {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 48px;
+}
+
+.apex-live-garage-main-insit-heading-box {
+    width: fit-content;
+    height: fit-content;
+    background-color: #f51d310f;
+    border: 1px solid #f51d3180;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.apex-live-garage-main-insit-heading-box a {
+    color: #F51D31;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+    letter-spacing: 2.42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-live-garage-main-insit-heading-text {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 16px;
+}
+
+.apex-live-garage-main-insit-heading-text h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Space Grotesk Bold';
+    text-align: center;
+}
+
+.apex-live-garage-main-insit-heading-text h1 span {
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apex-live-garage-main-insit-heading-pera {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-live-garage-main-insit-heading-pera p {
+    color: #B0A19A;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+    text-align: center;
+}
+
+.apex-live-garage-main-insit-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apex-live-garage-main-insit-box-card {
+    width: 32%;
+    height: fit-content;
+    background-color: #ffffff08;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #ffffff14;
+}
+
+.apex-live-garage-main-insit-box-card-btn {
+    width: fit-content;
+    height: fit-content;
+    background-color: #f51d310f;
+    border: 1px solid #f51d3180;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin: auto;
+    margin-right: 0px;
+}
+
+.apex-live-garage-main-insit-box-card-btn a {
+    color: #F51D31;
+    font-size: 10px;
+    font-family: 'Plus Jakarta Sans Bold';
+    letter-spacing: 0.9px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-live-garage-main-insit-box-card-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 24px;
+}
+
+.apex-live-garage-main-insit-box-card-pera p {
+    font-size: 12PX;
+    color: #B0A19A;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-live-garage-main-insit-box-card-box {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.apex-live-garage-main-insit-box-card-box-icon {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    background-color: #f51d3142;
+    border-radius: 16px;
+    box-shadow: 0px 0px 56px 6px #f51d316e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-live-garage-main-insit-box-card-box-icon i {
+    font-size: 20px;
+    color: #F51D31;
+}
+
+.apex-live-garage-main-insit-box-card-box-text {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-live-garage-main-insit-box-card-box-text h6 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Space Grotesk Bold';
+}
+
+.apex-live-garage-main-insit-box-card-box-text p {
+    color: #F51D31;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans SemiBold';
+}
+
+.apex-live-garage-main-insit-box-card-time {
+    width: 100%;
+    height: 8px;
+    background-color: #0B041B;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.apex-live-garage-main-insit-box-card-time-insit {
+    width: 0%;
+    height: 100%;
+    border-radius: 100px;
+    background-color: #F51D31;
+    transition: width 3s ease;
+}
+
+.apex-live-garage-main-insit-box-card-ready {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apex-live-garage-main-insit-box-card-ready p {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-live-garage-main-insit-box-card-btn-av {
+    width: fit-content;
+    height: fit-content;
+    background-color: #00bc7d1c;
+    border: 1px solid #00bc7d4d;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin: auto;
+    margin-right: 0px;
+}
+
+
+.apex-live-garage-main-insit-box-card-btn-av a {
+    color: #00BC7D;
+    font-size: 10px;
+    font-family: 'Plus Jakarta Sans Bold';
+    letter-spacing: 0.9px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-live-garage-main-insit-box-card-box-icon-bay {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    background-color: #00bc7d6b;
+    border-radius: 16px;
+    box-shadow: 0px 0px 56px 6px #00bc7d87;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-live-garage-main-insit-box-card-box-icon-bay i {
+    font-size: 20px;
+    color: #00BC7D;
+}
+
+.apex-live-garage-main-insit-box-card-box-text-im {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-live-garage-main-insit-box-card-box-text-im h6 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Space Grotesk Bold';
+}
+
+.apex-live-garage-main-insit-box-card-box-text-im p {
+    color: #00BC7D;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans SemiBold';
+}
+
+.apex-live-garage-main-insit-box-card-btn-naxt {
+    width: fit-content;
+    height: fit-content;
+    background-color: #ff901012;
+    border: 1px solid #ff90105c;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin: auto;
+    margin-right: 0px;
+}
+
+.apex-live-garage-main-insit-box-card-btn-naxt a {
+    color: #FF9010;
+    font-size: 10px;
+    font-family: 'Plus Jakarta Sans Bold';
+    letter-spacing: 0.9px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-live-garage-main-insit-box-card-box-icon-bmw {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    background-color: #ff901059;
+    border-radius: 16px;
+    box-shadow: 0px 0px 56px 6px #ff90109c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-live-garage-main-insit-box-card-box-icon-bmw i {
+    font-size: 20px;
+    color: #FF9010;
+}
+
+.apex-live-garage-main-insit-box-card-box-text-dig {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-live-garage-main-insit-box-card-box-text-dig h6 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Space Grotesk Bold';
+}
+
+.apex-live-garage-main-insit-box-card-box-text-dig p {
+    color: #FF9010;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans SemiBold';
+}
+
+.progress-third {
+    background-color: #FF9010;
+}
+
+/* ==== live gearage section end ==== */
+
+/* ==== Dynamic Service section start ====  */
+
+.apex-Dynamic-Service-main {
+    width: 100%;
+    height: fit-content;
+    background-color: #0B041B;
+    padding: 70px 0px;
+    border-top: 1px solid #ffffff1a;
+}
+
+.apex-Dynamic-Service-main-insit {
+    width: 100%;
+    height: fit-content;
+    padding: 0px 170px;
+}
+
+.apex-Dynamic-Service-main-insit-box {
+    width: 100%;
+    height: fit-content;
+    padding: 40px;
+    border-radius: 24px;
+    border: 1px solid #ffffff0f;
+    background-color: #ffffff08;
+    box-shadow: 0px 0px 30px 0px #f51d314d;
+    position: relative;
+    overflow: hidden;
+}
+
+.apex-Dynamic-Service-main-insit-box::after {
+    content: "";
+    width: 384px;
+    height: 384px;
+    background-color: #f51d3121;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -140px;
+    right: -108px;
+    filter: blur(64px);
+}
+
+.apex-Dynamic-Service-main-insit-box-heading {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 48px;
+}
+
+.apex-Dynamic-Service-main-insit-box-heading-btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 12px;
+    background-color: #f51d3112;
+    border: 1px solid #f51d3180;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.apex-Dynamic-Service-main-insit-box-heading-btn a {
+    color: #F51D31;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2.42px;
+}
+
+.apex-Dynamic-Service-main-insit-box-heading-cost {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 16px;
+}
+
+.apex-Dynamic-Service-main-insit-box-heading-cost h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Space Grotesk Bold';
+    text-align: center;
+    letter-spacing: 0.96px;
+}
+
+.apex-Dynamic-Service-main-insit-box-heading-cost h1 span {
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apex-Dynamic-Service-main-insit-box-heading-pera {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-Dynamic-Service-main-insit-box-heading-pera p {
+    color: #B0A19A;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans Regular';
+    text-align: center;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 40px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 8px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-pera p {
+    color: #F51D31;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+    letter-spacing: 0.6px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card {
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 20px;
+    background-color: #f51d311a;
+    border: 1px solid #f51d31b5;
+    box-shadow: 0px 0px 30px 0px #f51d314d;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-icon {
+    width: fit-content;
+    height: fit-content;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-icon i {
+    color: #F51D31;
+    font-size: 16px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-text {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-text p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-text p sup {
+    color: #F51D31;
+    font-size: 10px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-Flagship {
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 20px;
+    background-color: #0B041B;
+    border: 1px solid #b0a19a38;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-Flagship .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-text p span {
+    color: #B0A19A;
+    font-size: 9.5px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 40px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 8px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-pera P {
+    color: #F51D31;
+    font-size: 12PX;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card {
+    width: 49%;
+    height: fit-content;
+    padding: 16px;
+    background-color: #f51d3112;
+    border: 1px solid #f51d318a;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card-icon {
+    width: 16px;
+    height: 16px;
+    background-color: #00D1EF;
+    border-radius: 2.5px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card-text {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card-text p {
+    color: white;
+    font-size: 13px;
+    font-family: 'Plus Jakarta Sans SemiBold';
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card-text p:nth-last-child(1) {
+    color: #F51D31;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card-tune {
+    width: 49%;
+    height: fit-content;
+    padding: 16px;
+    background-color: #0B041B;
+    border: 1px solid #b0a19a38;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card-tune .apex-Dynamic-Service-main-insit-box-insit-detail-box-card-icon-brake {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 2.5px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-lock-this {
+    width: 100%;
+    height: fit-content;
+    border-top: 1px solid #b0a19a45;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-lock-this-text p {
+    color: #B0A19A;
+    font-size: 10px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-lock-this-text p:nth-last-child(1) {
+    background: linear-gradient(175deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-family: 'Space Grotesk Bold';
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-lock-this-btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 28px;
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    border-radius: 16px;
+    box-shadow: 0px 0px 30px 0px #f51d3196;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-lock-this-btn i {
+    font-size: 16px;
+    color: white;
+    margin-right: 10px;
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-lock-this-btn a {
+    font-size: 16px;
+    color: white;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+/* ==== Dynamic Service section end ====  */
+
+/* ==== Loved by section start ====  */
+
+.apex-Loved-by-main {
+    width: 100%;
+    height: fit-content;
+    background-color: #0B041B;
+    padding: 70px 0px;
+    position: relative;
+    border-top: 1px solid #ffffff1a;
+}
+
+.apex-Loved-by-main-insit {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-Loved-by-main-insit-heading {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 56px;
+}
+
+.apex-Loved-by-main-insit-heading-btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 12px;
+    background-color: #f51d311f;
+    border: 1px solid #f51d316e;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.apex-Loved-by-main-insit-heading-btn a {
+    color: #F51D31;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+    letter-spacing: 2.42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-Loved-by-main-insit-heading-insit {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-Loved-by-main-insit-heading-insit h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Space Grotesk Bold';
+    text-align: center;
+}
+
+.apex-Loved-by-main-insit-heading-insit h1 span {
+    background: linear-gradient(175deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apex-Loved-by-main-insit-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apex-Loved-by-main-insit-box-card {
+    width: 32%;
+    height: fit-content;
+    background-color: #ffffff08;
+    border: 1px solid #ffffff14;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.apex-Loved-by-main-insit-box-card-icon {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.apex-Loved-by-main-insit-box-card-icon i {
+    color: #F51D31;
+    font-size: 16px;
+}
+
+.apex-Loved-by-main-insit-box-card-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 24px;
+}
+
+.apex-Loved-by-main-insit-box-card-pera p {
+    color: #faf4efbf;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-Loved-by-main-insit-box-card-name {
+    width: 100%;
+    height: fit-content;
+    padding-top: 20px;
+    border-top: 1px solid #ffffff14;
+}
+
+.apex-Loved-by-main-insit-box-card-name h4 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans SemiBold';
+}
+
+.apex-Loved-by-main-insit-box-card-name p {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+/* ==== Loved by section end ====  */
+
+/* ==== Book your slot section start ====  */
+
+.apex-book-your-slot-main {
+    width: 100%;
+    height: fit-content;
+    padding: 70px 0px;
+    background-color: #0B041B;
+    border-top: 1px solid #ffffff1a;
+}
+
+.apex-book-your-slot-main-insit {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apex-book-your-slot-main-insit-contact {
+    width: 49%;
+    height: fit-content;
+}
+
+.apex-book-your-slot-main-insit-contact-btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 12px;
+    background-color: #f51d311f;
+    border: 1px solid #f51d316e;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.apex-book-your-slot-main-insit-contact-btn a {
+    color: #F51D31;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+    letter-spacing: 2.42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-book-your-slot-main-insit-contact-heading {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.apex-book-your-slot-main-insit-contact-heading h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Space Grotesk Bold';
+}
+
+.apex-book-your-slot-main-insit-contact-heading h1 span {
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apex-book-your-slot-main-insit-contact-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.apex-book-your-slot-main-insit-contact-pera p {
+    color: #B0A19A;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-book-your-slot-main-insit-contact-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-card {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-card-icon {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    background-color: #f51d3142;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-book-your-slot-main-insit-contact-box-card-icon i {
+    color: #F51D31;
+    font-size: 20px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-card-text {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-book-your-slot-main-insit-contact-box-card-text h6 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans SemiBold';
+}
+
+.apex-book-your-slot-main-insit-contact-box-card-text p {
+    color: #B0A19A;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-book-your-slot-main-insit-contact-box-card-mail {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-book-your-slot-main-insit-contact-box-card-mail a {
+    color: white;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans SemiBold';
+}
+
+.apex-book-your-slot-main-insit-contact-box-card-mail p {
+    color: #B0A19A;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-book-your-slot-main-insit-contact-box-form {
+    width: 49%;
+    height: fit-content;
+    background-color: #ffffff08;
+    border: 1px solid #ffffff14;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-name-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 5px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-name-pera P {
+    width: fit-content;
+    height: fit-content;
+    color: #B0A19A;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-name-pera P:nth-last-child(1) {
+    margin-left: 272px;
+    margin-top: -20px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-name {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-name input {
+    width: 48%;
+    height: fit-content;
+    color: white;
+    background-color: #ffffff03;
+    border-radius: 12px;
+    border: 1px solid hsla(0, 0%, 100%, 0.078);
+    padding: 12px 16px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-name input ::placeholder {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-mail {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-mail p {
+    color: #B0A19A;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans Bold';
+    margin-bottom: 5px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-mail input {
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff03;
+    border: 1px solid #ffffff14;
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service input {
+    width: 48%;
+    height: fit-content;
+    color: white;
+    background-color: #ffffff03;
+    border-radius: 12px;
+    border: 1px solid hsla(0, 0%, 100%, 0.078);
+    padding: 12px 16px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service input ::placeholder {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service i {
+    color: #B0A19A;
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service-dropdawon {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 55px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service i.rotate {
+    transform: rotate(180deg);
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service-dropdawon {
+    display: none;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service-dropdawon.show {
+    display: flex;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service-dropdawon p {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service-dropdawon p:hover {
+    background: #ffffff12;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service-dropdawon p {
+    width: 48%;
+    height: fit-content;
+    color: white;
+    background-color: #ffffff03;
+    border-radius: 12px;
+    border: 1px solid hsla(0, 0%, 100%, 0.078);
+    padding: 12px 16px;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service-dropdawon p:nth-last-child(1) {
+    margin-bottom: 0px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-service-dropdawon p {
+    color: white;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-sms {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-sms p {
+    color: #B0A19A;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans Bold';
+    margin-bottom: 5px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-sms ::placeholder {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Bold';
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-sms textarea {
+    width: 100%;
+    height: 104px;
+    color: white;
+    background-color: #ffffff03;
+    border-radius: 12px;
+    border: 1px solid hsla(0, 0%, 100%, 0.078);
+    padding: 12px 16px;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-btn {
+    width: 100%;
+    height: fit-content;
+    padding: 16px 28px;
+    border-radius: 16px;
+    background: linear-gradient(175deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    box-shadow: 0px 0px 30px 0px #f51d3187;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-btn a {
+    font-size: 16px;
+    color: white;
+    font-family: 'Plus Jakarta Sans Bold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ==== Book your slot section end ====  */
+
+/* ==== footer start ====  */
+
+.apex-footer-main {
+    width: 100%;
+    height: fit-content;
+    padding: 70px 0px;
+    background-color: #0B041B;
+    border-top: 1px solid #ffffff1a;
+}
+
+.apex-footer-main-insit {
+    width: 100%;
+    height: fit-content;
+    padding: 64px 24px;
+}
+
+.apex-footer-main-insit-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apex-footer-main-insit-logo {
+    width: 29%;
+    height: fit-content;
+    margin-bottom: 64px;
+}
+
+.apex-footer-main-insit-logo-insit {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.apex-footer-main-insit-logo-insit-img {
+    width: 45.28px;
+    min-width: 45.28px;
+    height: 44px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 30px 0px #f51d31a8;
+}
+
+.apex-footer-main-insit-logo-insit-img img {
+    width: 42px;
+    height: 42px;
+}
+
+.apex-footer-main-insit-logo-insit-text {
+    width: 100%;
+    height: fit-content;
+}
+
+.apex-footer-main-insit-logo-insit-text h1 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Space Grotesk Bold';
+}
+
+.apex-footer-main-insit-logo-insit-text h1 span {
+    background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 55%, rgba(243, 186, 37, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apex-footer-main-insit-logo-pera {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 16px;
+}
+
+.apex-footer-main-insit-logo-pera p {
+    color: #B0A19A;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-footer-main-insit-logo-icon-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.apex-footer-main-insit-logo-icon-box-card {
+    width: 38px;
+    height: 38px;
+    background-color: #ffffff08;
+    border: 1px solid #ffffff14;
+    border-radius: 16px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apex-footer-main-insit-logo-icon-box-card:hover {
+    background-color: #0B041B;
+}
+
+.apex-footer-main-insit-logo-icon-box-card:hover i {
+    color: #F51D31;
+}
+
+.apex-footer-main-insit-logo-icon-box-card i {
+    color: white;
+    font-size: 16px;
+}
+
+.apex-footer-main-insit-list {
+    width: 69%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apex-footer-main-insit-list ul {
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.apex-footer-main-insit-list ul li {
+    list-style: none;
+}
+
+.apex-footer-main-insit-list ul li a {
+    display: flex;
+    align-items: center;
+    color: #B0A19A;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.apex-footer-main-insit-list ul p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans SemiBold';
+    margin-bottom: 16px;
+}
+
+.apex-footer-main-insit-text {
+    width: 100%;
+    height: fit-content;
+    padding-top: 24px;
+    border-top: 1px solid #ffffff1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apex-footer-main-insit-text p {
+    color: #B0A19A;
+    font-size: 12px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+/* ==== footer end ====  */
+
+/* ==========================================================================
+   APEXLAB - TASTEFUL MICRO-ANIMATIONS & INTERACTIVE HOVER EFFECTS
+   Smooth, Modern, Subtle 60fps Transitions
+   ========================================================================== */
+
+/* --- 1. Global Interactive Transitions --- */
+a, button, input, textarea,
+.apex-header-logo-main-icon,
+.apex-header-btn,
+.apex-header-menu ul li a,
+.apex-banner-main-insit-text-btn-main-book-btn,
+.apex-banner-main-insit-text-btn-main-run,
+.apex-banner-main-insit-text-box-card,
+.apex-banner-main-insit-img-main,
+.apex-banner-main-insit-img-main-insit-img img,
+.apex-our-core-main-insit-box-card,
+.apex-our-core-main-insit-box-card-img img,
+.apex-our-core-main-insit-box-card-heading-icon i,
+.apex-our-core-main-insit-box-card-heading-premium i,
+.apex-our-core-main-insit-box-card-heading-icon-Periodic i,
+.apex-our-core-main-insit-box-card-heading-icon-Engine i,
+.apex-our-core-main-insit-box-card-Request-icon i,
+.apex-our-core-main-insit-box-card-Request-star i,
+.apex-our-core-main-insit-box-card-Request-icon-spre i,
+.apex-our-core-main-insit-box-card-Request-icon-chip i,
+.apex-car-health-main-insit-box-card,
+.apex-car-health-main-insit-box-card-idle,
+.apex-car-health-main-insit-box-card-bnt-main-insit-btn,
+.apex-car-health-main-insit-box-img,
+.apex-car-health-main-insit-box-img-box-card,
+.apex-live-garage-main-insit-box-card,
+.apex-live-garage-main-insit-box-card-box-icon,
+.apex-live-garage-main-insit-box-card-box-icon-bay,
+.apex-live-garage-main-insit-box-card-box-icon-bmw,
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card,
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-Flagship,
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card,
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card-tune,
+.apex-Dynamic-Service-main-insit-box-insit-lock-this-btn,
+.apex-Loved-by-main-insit-box-card,
+.apex-book-your-slot-main-insit-contact-box-card,
+.apex-book-your-slot-main-insit-contact-box-form-btn,
+.apex-footer-main-insit-logo-icon-box-card,
+.apex-footer-main-insit-list ul li a {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* --- 2. Header Interactions --- */
+.apex-header-logo-main {
+    cursor: pointer;
+}
+.apex-header-logo-main:hover .apex-header-logo-main-icon {
+    transform: scale(1.06);
+    box-shadow: 0px 0px 35px 2px #f51d31d0;
+}
+.apex-header-menu ul li a {
+    position: relative;
+    padding-bottom: 2px;
+}
+.apex-header-menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(90deg, #F51D31, #FF9010);
+    border-radius: 2px;
+    transition: all 0.25s ease;
+    transform: translateX(-50%);
+}
+.apex-header-menu ul li a:hover {
+    color: #ffffff;
+}
+.apex-header-menu ul li a:hover::after {
+    width: 100%;
+}
+.apex-header-btn {
+    cursor: pointer;
+}
+.apex-header-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 35px 4px #f51d31d0;
+}
+.apex-header-btn:hover .apex-header-btn-icon i {
+    transform: translateX(4px);
+    transition: transform 0.25s ease;
+}
+
+/* --- 3. Hero / Banner Section --- */
+.apex-banner-main-insit-text-btn-main-book-btn {
+    cursor: pointer;
+}
+.apex-banner-main-insit-text-btn-main-book-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 30px 4px rgba(245, 29, 49, 0.65);
+}
+.apex-banner-main-insit-text-btn-main-book-btn:hover a i {
+    transform: translateX(5px);
+    transition: transform 0.25s ease;
+}
+
+.apex-banner-main-insit-text-btn-main-run {
+    cursor: pointer;
+}
+.apex-banner-main-insit-text-btn-main-run:hover {
+    transform: translateY(-3px);
+    border-color: rgba(245, 29, 49, 0.7);
+    box-shadow: 0px 8px 25px rgba(245, 29, 49, 0.35);
+}
+.apex-banner-main-insit-text-btn-main-run:hover .apex-banner-main-insit-text-btn-main-run-icon i {
+    transform: rotate(90deg) scale(1.15);
+    transition: transform 0.4s ease;
+}
+
+.apex-banner-main-insit-text-box-card {
+    cursor: default;
+}
+.apex-banner-main-insit-text-box-card:hover {
+    transform: translateY(-4px);
+}
+.apex-banner-main-insit-text-box-card:hover .apex-banner-main-insit-text-box-card-icon,
+.apex-banner-main-insit-text-box-card:hover .apex-banner-main-insit-text-box-card-icon-time,
+.apex-banner-main-insit-text-box-card:hover .apex-banner-main-insit-text-box-card-icon-expert {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgba(245, 29, 49, 0.4);
+}
+
+.apex-banner-main-insit-img-main {
+    animation: gentleBannerFloat 6s ease-in-out infinite alternate;
+}
+.apex-banner-main-insit-img-main:hover .apex-banner-main-insit-img-main-insit-img img {
+    transform: scale(1.03);
+}
+.apex-banner-main-insit-img-main-insit-text-icon i {
+    animation: liveCameraPulse 2s infinite ease-in-out;
+}
+
+/* --- 4. Our Core (Service Cards) --- */
+.apex-our-core-main-insit-box-card {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.apex-our-core-main-insit-box-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(245, 29, 49, 0.45);
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
+    box-shadow: 0px 16px 36px -8px rgba(245, 29, 49, 0.3), 0 0 20px rgba(255, 255, 255, 0.04);
+}
+.apex-our-core-main-insit-box-card:hover .apex-our-core-main-insit-box-card-img img {
+    transform: scale(1.06);
+}
+.apex-our-core-main-insit-box-card:hover .apex-our-core-main-insit-box-card-heading-icon i,
+.apex-our-core-main-insit-box-card:hover .apex-our-core-main-insit-box-card-heading-premium i,
+.apex-our-core-main-insit-box-card:hover .apex-our-core-main-insit-box-card-heading-icon-Periodic i,
+.apex-our-core-main-insit-box-card:hover .apex-our-core-main-insit-box-card-heading-icon-Engine i {
+    transform: scale(1.2) rotate(6deg);
+}
+.apex-our-core-main-insit-box-card:hover .apex-our-core-main-insit-box-card-Request-icon i,
+.apex-our-core-main-insit-box-card:hover .apex-our-core-main-insit-box-card-Request-star i,
+.apex-our-core-main-insit-box-card:hover .apex-our-core-main-insit-box-card-Request-icon-spre i,
+.apex-our-core-main-insit-box-card:hover .apex-our-core-main-insit-box-card-Request-icon-chip i {
+    transform: translateX(6px);
+}
+
+/* --- 5. Cybernetic Car Health Scan --- */
+.apex-car-health-main-insit-box-card-idle {
+    cursor: pointer;
+}
+.apex-car-health-main-insit-box-card-idle:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(245, 29, 49, 0.45);
+    transform: translateX(6px);
+    box-shadow: 0px 4px 18px rgba(245, 29, 49, 0.15);
+}
+.apex-car-health-main-insit-box-card-idle:hover .apex-car-health-main-insit-box-card-idle-icon i {
+    color: #F51D31;
+    transform: scale(1.2) rotate(15deg);
+}
+.apex-car-health-main-insit-box-card-bnt-main-insit-btn {
+    cursor: pointer;
+}
+.apex-car-health-main-insit-box-card-bnt-main-insit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 25px rgba(245, 29, 49, 0.5);
+}
+.apex-car-health-main-insit-box-card-bnt-main-insit-btn:hover .apex-car-health-main-insit-box-card-bnt-main-insit-btn-icon i {
+    transform: scale(1.25) rotate(45deg);
+    transition: transform 0.3s ease;
+}
+.apex-car-health-main-insit-box-img-box-card {
+    cursor: default;
+    transition: all 0.3s ease;
+}
+.apex-car-health-main-insit-box-img-box-card:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* --- 6. Live Garage Bay Status --- */
+.apex-live-garage-main-insit-box-card {
+    cursor: pointer;
+}
+.apex-live-garage-main-insit-box-card:hover {
+    transform: translateY(-7px);
+}
+.apex-live-garage-main-insit-box-card:nth-child(1):hover {
+    border-color: rgba(245, 29, 49, 0.45);
+    box-shadow: 0px 16px 36px -8px rgba(245, 29, 49, 0.35);
+}
+.apex-live-garage-main-insit-box-card:nth-child(2):hover {
+    border-color: rgba(0, 188, 125, 0.45);
+    box-shadow: 0px 16px 36px -8px rgba(0, 188, 125, 0.35);
+}
+.apex-live-garage-main-insit-box-card:nth-child(3):hover {
+    border-color: rgba(255, 144, 16, 0.45);
+    box-shadow: 0px 16px 36px -8px rgba(255, 144, 16, 0.35);
+}
+.apex-live-garage-main-insit-box-card:hover .apex-live-garage-main-insit-box-card-box-icon,
+.apex-live-garage-main-insit-box-card:hover .apex-live-garage-main-insit-box-card-box-icon-bay,
+.apex-live-garage-main-insit-box-card:hover .apex-live-garage-main-insit-box-card-box-icon-bmw {
+    transform: scale(1.1);
+}
+
+/* --- 7. Dynamic Service Cost Calculator --- */
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card,
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-Flagship {
+    cursor: pointer;
+}
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card:hover,
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-Flagship:hover {
+    transform: translateY(-3px);
+    border-color: rgba(245, 29, 49, 0.7);
+    box-shadow: 0px 8px 24px rgba(245, 29, 49, 0.3);
+}
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card:hover .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-icon i,
+.apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-Flagship:hover .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-icon i {
+    transform: scale(1.2);
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card,
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card-tune {
+    cursor: pointer;
+}
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card:hover,
+.apex-Dynamic-Service-main-insit-box-insit-detail-box-card-tune:hover {
+    transform: translateY(-3px);
+    border-color: rgba(0, 209, 239, 0.55);
+    box-shadow: 0px 6px 20px rgba(0, 209, 239, 0.2);
+}
+
+.apex-Dynamic-Service-main-insit-box-insit-lock-this-btn {
+    cursor: pointer;
+}
+.apex-Dynamic-Service-main-insit-box-insit-lock-this-btn:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0px 10px 35px 2px rgba(245, 29, 49, 0.65);
+}
+.apex-Dynamic-Service-main-insit-box-insit-lock-this-btn:hover i {
+    transform: rotate(-10deg) scale(1.2);
+    transition: transform 0.25s ease;
+}
+
+/* --- 8. Loved by Drivers (Reviews) --- */
+.apex-Loved-by-main-insit-box-card {
+    cursor: default;
+}
+.apex-Loved-by-main-insit-box-card:hover {
+    transform: translateY(-7px);
+    border-color: rgba(245, 29, 49, 0.4);
+    box-shadow: 0px 16px 36px -10px rgba(245, 29, 49, 0.25);
+    background: rgba(255, 255, 255, 0.05);
+}
+.apex-Loved-by-main-insit-box-card:hover .apex-Loved-by-main-insit-box-card-icon i {
+    transform: scale(1.12);
+    transition: transform 0.2s ease;
+}
+
+/* --- 9. Book Your Slot (Contact & Form) --- */
+.apex-book-your-slot-main-insit-contact-box-card {
+    cursor: pointer;
+}
+.apex-book-your-slot-main-insit-contact-box-card:hover {
+    transform: translateX(6px);
+}
+.apex-book-your-slot-main-insit-contact-box-card:hover .apex-book-your-slot-main-insit-contact-box-card-icon {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 25px rgba(245, 29, 49, 0.55);
+}
+.apex-book-your-slot-main-insit-contact-box-card:hover .apex-book-your-slot-main-insit-contact-box-card-mail a {
+    color: #F51D31;
+}
+
+/* Interactive Input Focus & Hover */
+.apex-book-your-slot-main-insit-contact-box-form-name input,
+.apex-book-your-slot-main-insit-contact-box-form-mail input,
+.apex-book-your-slot-main-insit-contact-box-form-service input,
+.apex-book-your-slot-main-insit-contact-box-form-sms textarea {
+    transition: border-color 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+.apex-book-your-slot-main-insit-contact-box-form-name input:hover,
+.apex-book-your-slot-main-insit-contact-box-form-mail input:hover,
+.apex-book-your-slot-main-insit-contact-box-form-service input:hover,
+.apex-book-your-slot-main-insit-contact-box-form-sms textarea:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.apex-book-your-slot-main-insit-contact-box-form-name input:focus,
+.apex-book-your-slot-main-insit-contact-box-form-mail input:focus,
+.apex-book-your-slot-main-insit-contact-box-form-service input:focus,
+.apex-book-your-slot-main-insit-contact-box-form-sms textarea:focus {
+    border-color: #F51D31 !important;
+    background-color: rgba(255, 255, 255, 0.06) !important;
+    box-shadow: 0 0 16px rgba(245, 29, 49, 0.35) !important;
+}
+
+.apex-book-your-slot-main-insit-contact-box-form-btn {
+    cursor: pointer;
+}
+.apex-book-your-slot-main-insit-contact-box-form-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 35px rgba(245, 29, 49, 0.7);
+}
+
+/* --- 10. Footer Section --- */
+.apex-footer-main-insit-logo-icon-box-card {
+    cursor: pointer;
+}
+.apex-footer-main-insit-logo-icon-box-card:hover {
+    transform: translateY(-4px) scale(1.12);
+    background-color: #F51D31 !important;
+    box-shadow: 0px 6px 20px rgba(245, 29, 49, 0.5);
+    border-color: #F51D31 !important;
+}
+.apex-footer-main-insit-logo-icon-box-card:hover i {
+    color: #ffffff !important;
+}
+
+.apex-footer-main-insit-list ul li a {
+    display: inline-flex;
+}
+.apex-footer-main-insit-list ul li a:hover {
+    color: #ffffff !important;
+    transform: translateX(5px);
+}
+
+/* --- 11. Subtle Ambient Animations --- */
+@keyframes gentleBannerFloat {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes liveCameraPulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.45;
+        transform: scale(0.85);
+    }
+}

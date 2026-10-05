@@ -1,0 +1,1749 @@
+/* ==========================================================================
+   APEXLAB - MASTER RESPONSIVE STYLESHEET
+   Mobile-First to Ultra-Wide Desktop (320px - 1500px+)
+   ========================================================================== */
+
+/* Global overflow safety across all screens */
+html,
+body,
+.main {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes menuDropdownAnim {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ==========================================================================
+   1. LAPTOP & LARGE SCREENS (1241px to 1500px)
+   ========================================================================== */
+@media screen and (min-width: 1241px) and (max-width: 1500px) {
+
+    .container {
+        max-width: 1200px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Banner */
+    .apex-banner-main-insit-text-heading h1 {
+        font-size: 64px;
+    }
+
+    .apex-banner-main-insit-text-box {
+        gap: 48px;
+    }
+
+    /* Our Core */
+    .apex-our-core-main-insit-heading-pera {
+        margin-bottom: 100px;
+    }
+
+    .apex-our-core-main-insit-box-card {
+        width: 31.8%;
+    }
+
+    /* Dynamic Service Cost */
+    .apex-Dynamic-Service-main-insit {
+        padding: 0px 90px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box {
+        gap: 12px;
+    }
+
+    /* Book Your Slot Form label alignment fix */
+    .apex-book-your-slot-main-insit-contact-box-form-name-pera {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-name-pera P:nth-last-child(1) {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /* Footer */
+    .apex-footer-main-insit-logo {
+        width: 32%;
+    }
+
+    .apex-footer-main-insit-list {
+        width: 65%;
+    }
+}
+
+
+/* ==========================================================================
+   2. DESKTOP & MEDIUM LAPTOPS (1025px to 1240px)
+   ========================================================================== */
+@media screen and (min-width: 1025px) and (max-width: 1240px) {
+
+    .container {
+        max-width: 1000px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Header */
+    .apex-header-main-insit {
+        padding: 10px 16px;
+        justify-content: space-between;
+    }
+
+    .apex-header-menu ul {
+        gap: 16px;
+    }
+
+    .apex-header-menu ul li a {
+        font-size: 13px;
+    }
+
+    .apex-header-btn {
+        padding: 8px 16px;
+    }
+
+    /* Banner */
+    .apex-banner-main-insit-text-heading h1 {
+        font-size: 54px;
+    }
+
+    .apex-banner-main-insit-text-pera p {
+        font-size: 14px;
+    }
+
+    .apex-banner-main-insit-text-btn-main {
+        gap: 12px;
+    }
+
+    .apex-banner-main-insit-text-btn-main-book-btn,
+    .apex-banner-main-insit-text-btn-main-run {
+        padding: 14px 22px;
+    }
+
+    .apex-banner-main-insit-text-btn-main-book-btn a,
+    .apex-banner-main-insit-text-btn-main-run-text a {
+        font-size: 14px;
+    }
+
+    .apex-banner-main-insit-text-box {
+        gap: 32px;
+    }
+
+    .apex-banner-main-insit-img-main {
+        width: 40%;
+    }
+
+    .apex-banner-main-insit-text {
+        width: 58%;
+    }
+
+    /* Our Core */
+    .apex-our-core-main-insit-heading-our h1 {
+        font-size: 42px;
+    }
+
+    .apex-our-core-main-insit-heading-pera {
+        margin-bottom: 70px;
+    }
+
+    .apex-our-core-main-insit-box-card {
+        width: 31.8%;
+        padding: 18px;
+    }
+
+    .apex-our-core-main-insit-box-card-heading-text h5 {
+        font-size: 15px;
+    }
+
+    .apex-our-core-main-insit-box-card-pera p {
+        font-size: 12px;
+    }
+
+    /* Car Health */
+    .apex-car-health-main-insit-heading-car h1 {
+        font-size: 42px;
+    }
+
+    .apex-car-health-main-insit-box-card {
+        width: 36%;
+        padding: 20px;
+    }
+
+    .apex-car-health-main-insit-box-img {
+        width: 62%;
+        padding: 20px;
+    }
+
+    .apex-car-health-main-insit-box-card-idle:nth-last-child(2) {
+        margin-bottom: 40px;
+    }
+
+    /* Live Garage */
+    .apex-live-garage-main-insit-heading-text h1 {
+        font-size: 42px;
+    }
+
+    .apex-live-garage-main-insit-box-card {
+        width: 32%;
+        padding: 18px;
+    }
+
+    .apex-live-garage-main-insit-box-card-box-text h6,
+    .apex-live-garage-main-insit-box-card-box-text-im h6,
+    .apex-live-garage-main-insit-box-card-box-text-dig h6 {
+        font-size: 14.5px;
+    }
+
+    /* Dynamic Service Cost */
+    .apex-Dynamic-Service-main-insit {
+        padding: 0px 40px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box {
+        padding: 32px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-heading-cost h1 {
+        font-size: 42px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box {
+        gap: 10px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card,
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-Flagship {
+        padding: 14px 16px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-detail-box-card,
+    .apex-Dynamic-Service-main-insit-box-insit-detail-box-card-tune {
+        width: 48.5%;
+    }
+
+    /* Loved By */
+    .apex-Loved-by-main-insit-heading-insit h1 {
+        font-size: 42px;
+    }
+
+    .apex-Loved-by-main-insit-box-card {
+        width: 32%;
+        padding: 20px;
+    }
+
+    .apex-Loved-by-main-insit-box-card-pera p {
+        font-size: 14px;
+    }
+
+    /* Book Your Slot */
+    .apex-book-your-slot-main-insit-contact-heading h1 {
+        font-size: 42px;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form {
+        padding: 26px;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-name-pera {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-name-pera P:nth-last-child(1) {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /* Footer */
+    .apex-footer-main-insit-logo {
+        width: 32%;
+    }
+
+    .apex-footer-main-insit-list {
+        width: 65%;
+    }
+}
+
+
+/* ==========================================================================
+   3. SMALL DESKTOPS & LANDSCAPE TABLETS (992px to 1024px)
+   ========================================================================== */
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+
+    .container {
+        max-width: 960px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    /* Header */
+    .apex-header-logo-main-icon {
+        width: 62px;
+        height: 42px;
+    }
+
+    .apex-header-logo-main-icon img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .apex-header-logo-main-text h1 {
+        font-size: 18px;
+    }
+
+    .apex-header-logo-main-text p {
+        font-size: 8px;
+    }
+
+    .apex-header-main-insit {
+        padding: 10px 14px;
+        justify-content: space-between;
+    }
+
+    .apex-header-menu ul {
+        gap: 14px;
+    }
+
+    .apex-header-menu ul li a {
+        font-size: 12px;
+    }
+
+    .apex-header-btn {
+        padding: 8px 14px;
+        border-radius: 12px;
+    }
+
+    .apex-header-btn-text a {
+        font-size: 11px;
+    }
+
+    /* Banner */
+    .apex-banner-main-insit-text-heading h1 {
+        font-size: 50px;
+    }
+
+    .apex-banner-main-insit-text-pera p {
+        font-size: 14px;
+    }
+
+    .apex-banner-main-insit-text-btn-main-book-btn a,
+    .apex-banner-main-insit-text-btn-main-run-text a {
+        font-size: 13px;
+    }
+
+    .apex-banner-main-insit-text-btn-main-book-btn,
+    .apex-banner-main-insit-text-btn-main-run {
+        padding: 12px 20px;
+        border-radius: 14px;
+    }
+
+    .apex-banner-main-insit-text-box {
+        gap: 22px;
+    }
+
+    .apex-banner-main-insit-text-box-card-icon,
+    .apex-banner-main-insit-text-box-card-icon-time,
+    .apex-banner-main-insit-text-box-card-icon-expert {
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+    }
+
+    .apex-banner-main-insit-text-box-card-text h4 {
+        font-size: 16px;
+    }
+
+    .apex-banner-main-insit-text-box-card-text p {
+        font-size: 8.5px;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text-icon i {
+        font-size: 10px;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text-pera a {
+        font-size: 8px;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text-aston-text h3 {
+        font-size: 14px;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text-aston-text p {
+        font-size: 10px;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text-aston-btn a {
+        font-size: 9px;
+    }
+
+    /* Section Headings */
+    .apex-our-core-main-insit-heading-btn a {
+        font-size: 10px;
+    }
+
+    .apex-our-core-main-insit-heading-our h1,
+    .apex-car-health-main-insit-heading-car h1,
+    .apex-live-garage-main-insit-heading-text h1,
+    .apex-Dynamic-Service-main-insit-box-heading-cost h1,
+    .apex-Loved-by-main-insit-heading-insit h1,
+    .apex-book-your-slot-main-insit-contact-heading h1 {
+        font-size: 40px;
+    }
+
+    .apex-our-core-main-insit-heading-pera p,
+    .apex-our-core-main-insit-heading-pera span,
+    .apex-car-health-main-insit-heading-pera p,
+    .apex-car-health-main-insit-heading-pera span,
+    .apex-live-garage-main-insit-heading-pera p,
+    .apex-Dynamic-Service-main-insit-box-heading-pera p,
+    .apex-book-your-slot-main-insit-contact-pera p {
+        font-size: 14px;
+    }
+
+    /* Our Core */
+    .apex-our-core-main-insit-heading-pera {
+        margin-bottom: 60px;
+    }
+
+    .apex-our-core-main-insit-box-card {
+        width: 31.5%;
+        padding: 16px;
+    }
+
+    .apex-our-core-main-insit-box-card-heading-text h5 {
+        font-size: 14px;
+    }
+
+    .apex-our-core-main-insit-box-card-heading-icon i,
+    .apex-our-core-main-insit-box-card-heading-premium i,
+    .apex-our-core-main-insit-box-card-heading-icon-Periodic i,
+    .apex-our-core-main-insit-box-card-heading-icon-Engine i {
+        font-size: 14px;
+    }
+
+    .apex-our-core-main-insit-box-card-heading-icon,
+    .apex-our-core-main-insit-box-card-heading-premium,
+    .apex-our-core-main-insit-box-card-heading-icon-Periodic,
+    .apex-our-core-main-insit-box-card-heading-icon-Engine {
+        width: 36px;
+        height: 36px;
+        border-radius: 12px;
+    }
+
+    .apex-our-core-main-insit-box-card-pera p {
+        font-size: 11px;
+    }
+
+    .apex-our-core-main-insit-box-card-Request-icon p,
+    .apex-our-core-main-insit-box-card-Request-text p,
+    .apex-our-core-main-insit-box-card-Request-star p,
+    .apex-our-core-main-insit-box-card-Request-icon-spre p,
+    .apex-our-core-main-insit-box-card-Request-icon-chip p,
+    .apex-our-core-main-insit-box-card-Request-icon-chip i,
+    .apex-our-core-main-insit-box-card-Request-icon i,
+    .apex-our-core-main-insit-box-card-Request-star i,
+    .apex-our-core-main-insit-box-card-Request-icon-spre i {
+        font-size: 10px;
+    }
+
+    /* Car Health */
+    .apex-car-health-main-insit-heading-box {
+        padding: 6px 8px;
+    }
+
+    .apex-car-health-main-insit-heading-box a,
+    .apex-car-health-main-insit-heading-box i {
+        font-size: 10px;
+    }
+
+    .apex-car-health-main-insit-box-card {
+        width: 36%;
+        padding: 18px;
+    }
+
+    .apex-car-health-main-insit-box-card-heading-text h3,
+    .apex-car-health-main-insit-box-card-heading-icon i {
+        font-size: 18px;
+    }
+
+    .apex-car-health-main-insit-box-card-heading-pera p {
+        font-size: 10px;
+    }
+
+    .apex-car-health-main-insit-box-card-idle-text p {
+        font-size: 12px;
+    }
+
+    .apex-car-health-main-insit-box-card-idle-icon i {
+        font-size: 12px;
+    }
+
+    .apex-car-health-main-insit-box-card-idle-text span {
+        font-size: 8px;
+    }
+
+    .apex-car-health-main-insit-box-card-idle {
+        padding: 12px;
+    }
+
+    .apex-car-health-main-insit-box-card-idle:nth-last-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .apex-car-health-main-insit-box-card-bnt-main-pera a,
+    .apex-car-health-main-insit-box-card-bnt-main-insit-btn-icon i {
+        font-size: 13px;
+    }
+
+    .apex-car-health-main-insit-box-card-bnt-main-insit-btn {
+        padding: 12px 0px;
+    }
+
+    .apex-car-health-main-insit-box-card-bnt-main-text p {
+        font-size: 8px;
+    }
+
+    .apex-car-health-main-insit-box-img {
+        width: 62%;
+        padding: 18px;
+    }
+
+    .apex-car-health-main-insit-box-img-text p {
+        font-size: 13px;
+    }
+
+    .apex-car-health-main-insit-box-img-text h4 {
+        font-size: 17px;
+    }
+
+    .apex-car-health-main-insit-box-img-text ul li {
+        font-size: 11px;
+    }
+
+    .apex-car-health-main-insit-box-img-box-card p {
+        font-size: 8px;
+    }
+
+    .apex-car-health-main-insit-box-img-box-card h5,
+    .apex-car-health-main-insit-box-img-box-card h4 {
+        font-size: 12px;
+    }
+
+    .apex-car-health-main-insit-box-img-box {
+        border-radius: 18px;
+        padding: 12px;
+    }
+
+    /* Live Garage */
+    .apex-live-garage-main-insit-box-card {
+        width: 32%;
+        padding: 16px;
+    }
+
+    .apex-live-garage-main-insit-box-card-pera p {
+        font-size: 11px;
+    }
+
+    .apex-live-garage-main-insit-box-card-box-text h6,
+    .apex-live-garage-main-insit-box-card-box-text-im h6,
+    .apex-live-garage-main-insit-box-card-box-text-dig h6 {
+        font-size: 14px;
+    }
+
+    /* Dynamic Service Cost */
+    .apex-live-garage-main-insit-heading-box a,
+    .apex-Dynamic-Service-main-insit-box-heading-btn a {
+        font-size: 10px;
+    }
+
+    .apex-Dynamic-Service-main-insit {
+        padding: 0px 30px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box {
+        padding: 28px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-pera p {
+        font-size: 11px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-text p {
+        font-size: 12px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-icon i {
+        font-size: 14px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card,
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-Flagship {
+        padding: 12px 14px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-detail-box-card,
+    .apex-Dynamic-Service-main-insit-box-insit-detail-box-card-tune {
+        width: 48.5%;
+        padding: 14px;
+    }
+
+    /* Loved By */
+    .apex-Loved-by-main-insit-box-card {
+        width: 32%;
+        padding: 18px;
+    }
+
+    .apex-Loved-by-main-insit-box-card-pera p {
+        font-size: 13.5px;
+    }
+
+    /* Book Your Slot */
+    .apex-book-your-slot-main-insit-contact-box-form {
+        padding: 24px;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-name-pera {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-name-pera P:nth-last-child(1) {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /* Footer */
+    .apex-footer-main-insit-logo {
+        width: 32%;
+    }
+
+    .apex-footer-main-insit-list {
+        width: 65%;
+    }
+}
+
+
+/* ==========================================================================
+   4. TABLETS & IPADS PORTRAIT (768px to 991px)
+   ========================================================================== */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container {
+        max-width: 720px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    /* Section padding */
+    .apex-banner-main,
+    .apex-our-core-main,
+    .apex-car-health-main,
+    .apex-live-garage-main,
+    .apex-Dynamic-Service-main,
+    .apex-Loved-by-main,
+    .apex-book-your-slot-main,
+    .apex-footer-main {
+        padding: 55px 0px;
+    }
+
+    /* Header: Logo Left, Centered Book Slot, Right Toggle Button */
+    .apex-header-main-insit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 12px 18px;
+    }
+
+    .apex-header-logo-main {
+        order: 1;
+        flex: 0 0 auto;
+    }
+
+    .apex-header-btn {
+        order: 2;
+        margin: 0 auto;
+        padding: 9px 16px;
+        border-radius: 14px;
+    }
+
+    .apex-header-btn-text a {
+        font-size: 12px;
+    }
+
+    .apex-header-toggle-btn {
+        order: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 12px;
+        background: linear-gradient(135deg, rgba(245, 29, 49, 0.15) 0%, rgba(255, 144, 16, 0.15) 100%);
+        border: 1px solid rgba(245, 29, 49, 0.45);
+        color: #F51D31;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0px 0px 18px rgba(245, 29, 49, 0.25);
+    }
+
+    .apex-header-toggle-btn:hover,
+    .apex-header-toggle-btn.active {
+        background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 100%);
+        color: #ffffff;
+    }
+
+    .apex-header-toggle-btn i {
+        transition: transform 0.3s ease;
+    }
+
+    .apex-header-toggle-btn.active i {
+        transform: rotate(90deg);
+    }
+
+    .apex-header-menu {
+        order: 4;
+        width: 100%;
+        display: none;
+        margin-top: 14px;
+        padding: 16px;
+        background: rgba(11, 4, 27, 0.97);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(245, 29, 49, 0.35);
+        border-radius: 18px;
+        box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.8), 0px 0px 25px rgba(245, 29, 49, 0.15);
+        animation: menuDropdownAnim 0.3s ease forwards;
+    }
+
+    .apex-header-menu.open {
+        display: block !important;
+    }
+
+    .apex-header-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .apex-header-menu ul li {
+        width: 100%;
+        list-style: none;
+    }
+
+    .apex-header-menu ul li a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 18px;
+        color: #FEF7F2;
+        font-size: 14px;
+        font-family: 'Plus Jakarta Sans SemiBold';
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        border-radius: 12px;
+        transition: all 0.25s ease;
+        text-decoration: none;
+    }
+
+    .apex-header-menu ul li a:hover,
+    .apex-header-menu ul li a:active {
+        background: linear-gradient(90deg, rgba(245, 29, 49, 0.22) 0%, rgba(255, 144, 16, 0.22) 100%);
+        border-color: rgba(245, 29, 49, 0.5);
+        color: #ffffff;
+        transform: translateX(4px);
+    }
+
+    /* Banner */
+    .apex-banner-main-insit {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .apex-banner-main-insit-text {
+        width: 100%;
+    }
+
+    .apex-banner-main-insit-text-heading h1 {
+        font-size: 46px;
+        line-height: 1.15;
+    }
+
+    .apex-banner-main-insit-text-pera p {
+        font-size: 14.5px;
+    }
+
+    .apex-banner-main-insit-text-box {
+        gap: 24px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .apex-banner-main-insit-img-main {
+        width: 100%;
+        max-width: 540px;
+        margin: 0 auto;
+    }
+
+    /* Section Headings */
+    .apex-our-core-main-insit-heading-our h1,
+    .apex-car-health-main-insit-heading-car h1,
+    .apex-live-garage-main-insit-heading-text h1,
+    .apex-Dynamic-Service-main-insit-box-heading-cost h1,
+    .apex-Loved-by-main-insit-heading-insit h1,
+    .apex-book-your-slot-main-insit-contact-heading h1 {
+        font-size: 36px;
+    }
+
+    .apex-our-core-main-insit-heading-pera,
+    .apex-car-health-main-insit-heading-pera,
+    .apex-live-garage-main-insit-heading-pera,
+    .apex-Dynamic-Service-main-insit-box-heading-pera,
+    .apex-book-your-slot-main-insit-contact-pera {
+        margin-bottom: 35px;
+    }
+
+    /* Our Core: 2 Columns on Tablet */
+    .apex-our-core-main-insit-box {
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .apex-our-core-main-insit-box-card {
+        width: 48.5%;
+        padding: 20px;
+    }
+
+    .apex-our-core-main-insit-box-card-heading-text h5 {
+        font-size: 15px;
+    }
+
+    .apex-our-core-main-insit-box-card-pera p {
+        font-size: 12px;
+    }
+
+    /* Car Health: Stacks vertically */
+    .apex-car-health-main-insit-box {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .apex-car-health-main-insit-box-card {
+        width: 100%;
+        padding: 24px;
+    }
+
+    .apex-car-health-main-insit-box-card-idle:nth-last-child(2) {
+        margin-bottom: 24px;
+    }
+
+    .apex-car-health-main-insit-box-img {
+        width: 100%;
+        padding: 24px;
+    }
+
+    /* Live Garage: Stacks cleanly */
+    .apex-live-garage-main-insit-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .apex-live-garage-main-insit-box-card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Dynamic Service Cost */
+    .apex-Dynamic-Service-main-insit {
+        padding: 0px 10px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box {
+        padding: 28px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card,
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-Flagship {
+        width: 31.5%;
+        padding: 14px 12px;
+        justify-content: center;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-text p {
+        font-size: 12px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-detail-box-card,
+    .apex-Dynamic-Service-main-insit-box-insit-detail-box-card-tune {
+        width: 48.5%;
+    }
+
+    /* Loved By: Stacks vertically */
+    .apex-Loved-by-main-insit-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .apex-Loved-by-main-insit-box-card {
+        width: 100%;
+        padding: 22px;
+    }
+
+    /* Book Your Slot: Stacks vertically */
+    .apex-book-your-slot-main-insit {
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .apex-book-your-slot-main-insit-contact {
+        width: 100%;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-card {
+        justify-content: flex-start;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form {
+        width: 100%;
+        padding: 28px;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-name-pera {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-name-pera P:nth-last-child(1) {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /* Footer */
+    .apex-footer-main-insit-box {
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .apex-footer-main-insit-logo {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .apex-footer-main-insit-list {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+
+/* ==========================================================================
+   5. MOBILE & SMALL TABLETS (max-width: 767px)
+   ========================================================================== */
+@media (max-width: 767px) {
+
+    .container {
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    /* Clean Section Padding */
+    .apex-banner-main,
+    .apex-our-core-main,
+    .apex-car-health-main,
+    .apex-live-garage-main,
+    .apex-Dynamic-Service-main,
+    .apex-Loved-by-main,
+    .apex-book-your-slot-main,
+    .apex-footer-main {
+        padding: 45px 0px;
+    }
+
+    /* Common Section Headings */
+    .apex-our-core-main-insit-heading-our h1,
+    .apex-car-health-main-insit-heading-car h1,
+    .apex-live-garage-main-insit-heading-text h1,
+    .apex-Dynamic-Service-main-insit-box-heading-cost h1,
+    .apex-Loved-by-main-insit-heading-insit h1,
+    .apex-book-your-slot-main-insit-contact-heading h1 {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    .apex-our-core-main-insit-heading-pera p,
+    .apex-our-core-main-insit-heading-pera span,
+    .apex-car-health-main-insit-heading-pera p,
+    .apex-car-health-main-insit-heading-pera span,
+    .apex-live-garage-main-insit-heading-pera p,
+    .apex-Dynamic-Service-main-insit-box-heading-pera p,
+    .apex-book-your-slot-main-insit-contact-pera p {
+        font-size: 13.5px;
+        line-height: 1.6;
+    }
+
+    /* Header: Logo Left, Centered Book Slot, Right Toggle Button */
+    .apex-header-main {
+        padding: 10px 0px;
+    }
+
+    .apex-header-main-insit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 10px 14px;
+        border-radius: 18px;
+    }
+
+    .apex-header-logo-main {
+        order: 1;
+        flex: 0 0 auto;
+        gap: 10px;
+    }
+
+    .apex-header-logo-main-icon {
+        width: 50px;
+        height: 38px;
+        border-radius: 12px;
+    }
+
+    .apex-header-logo-main-icon img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .apex-header-logo-main-text h1 {
+        font-size: 17px;
+    }
+
+    .apex-header-logo-main-text p {
+        font-size: 8px;
+    }
+
+    /* Centered Book Slot Button on Mobile */
+    .apex-header-btn {
+        order: 2;
+        margin: 0 auto;
+        padding: 8px 14px;
+        border-radius: 12px;
+    }
+
+    .apex-header-btn-text a {
+        font-size: 11.5px;
+    }
+
+    .apex-header-btn-icon i {
+        font-size: 11px;
+    }
+
+    /* Toggle Button on the Right side */
+    .apex-header-toggle-btn {
+        order: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+        background: linear-gradient(135deg, rgba(245, 29, 49, 0.15) 0%, rgba(255, 144, 16, 0.15) 100%);
+        border: 1px solid rgba(245, 29, 49, 0.45);
+        color: #F51D31;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0px 0px 18px rgba(245, 29, 49, 0.25);
+        padding: 0;
+        outline: none;
+    }
+
+    .apex-header-toggle-btn:hover,
+    .apex-header-toggle-btn.active {
+        background: linear-gradient(90deg, rgba(245, 29, 49, 1) 0%, rgba(255, 144, 16, 1) 100%);
+        color: #ffffff;
+        box-shadow: 0px 0px 25px rgba(245, 29, 49, 0.55);
+        transform: scale(1.05);
+    }
+
+    .apex-header-toggle-btn i {
+        transition: transform 0.3s ease;
+    }
+
+    .apex-header-toggle-btn.active i {
+        transform: rotate(90deg);
+    }
+
+    /* Menu Hidden by default on Mobile Bar */
+    .apex-header-menu {
+        order: 4;
+        width: 100%;
+        display: none;
+        margin-top: 14px;
+        padding: 14px;
+        background: rgba(11, 4, 27, 0.97);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(245, 29, 49, 0.35);
+        border-radius: 18px;
+        box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.8), 0px 0px 25px rgba(245, 29, 49, 0.15);
+        animation: menuDropdownAnim 0.3s ease forwards;
+    }
+
+    /* Opens smoothly when toggle is clicked! */
+    .apex-header-menu.open {
+        display: block !important;
+    }
+
+    .apex-header-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .apex-header-menu ul li {
+        width: 100%;
+        list-style: none;
+    }
+
+    .apex-header-menu ul li a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 16px;
+        color: #FEF7F2;
+        font-size: 13.5px;
+        font-family: 'Plus Jakarta Sans SemiBold';
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        border-radius: 12px;
+        transition: all 0.25s ease;
+        text-decoration: none;
+    }
+
+    .apex-header-menu ul li a:hover,
+    .apex-header-menu ul li a:active {
+        background: linear-gradient(90deg, rgba(245, 29, 49, 0.22) 0%, rgba(255, 144, 16, 0.22) 100%);
+        border-color: rgba(245, 29, 49, 0.5);
+        color: #ffffff;
+        transform: translateX(4px);
+    }
+
+    /* Banner Section */
+    .apex-banner-main-insit {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    /* Prevent pseudo-element overflow */
+    .apex-banner-main-insit::after {
+        width: 220px;
+        height: 220px;
+        left: -100px;
+        top: -100px;
+    }
+
+    .apex-banner-main-insit::before {
+        width: 220px;
+        height: 220px;
+        right: -80px;
+        top: -50px;
+    }
+
+    .apex-banner-main-insit-text {
+        width: 100%;
+    }
+
+    .apex-banner-main-insit-text-heading {
+        margin-bottom: 18px;
+    }
+
+    .apex-banner-main-insit-text-heading h1 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .apex-banner-main-insit-text-pera {
+        margin-bottom: 22px;
+    }
+
+    .apex-banner-main-insit-text-pera p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* CTA buttons stack on mobile */
+    .apex-banner-main-insit-text-btn-main {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .apex-banner-main-insit-text-btn-main-book-btn,
+    .apex-banner-main-insit-text-btn-main-run {
+        width: 100%;
+        justify-content: center;
+        padding: 14px 20px;
+    }
+
+    .apex-banner-main-insit-text-btn-main-book-btn a,
+    .apex-banner-main-insit-text-btn-main-run-text a {
+        width: 100%;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    /* Quick stats in banner */
+    .apex-banner-main-insit-text-box {
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .apex-banner-main-insit-text-box-card {
+        gap: 10px;
+    }
+
+    .apex-banner-main-insit-text-box-card-text h4 {
+        font-size: 17px;
+    }
+
+    .apex-banner-main-insit-text-box-card-text p {
+        font-size: 9.5px;
+    }
+
+    .apex-banner-main-insit-img-main {
+        width: 100%;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text {
+        left: 16px;
+        top: 16px;
+    }
+
+    /* Our Core: 1 Column on Mobile */
+    .apex-our-core-main-insit-heading-pera {
+        margin-bottom: 28px;
+    }
+
+    .apex-our-core-main-insit-box {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .apex-our-core-main-insit-box-card {
+        width: 100%;
+        padding: 18px;
+        border-radius: 20px;
+    }
+
+    .apex-our-core-main-insit-box-card-heading-text h5 {
+        font-size: 15px;
+    }
+
+    .apex-our-core-main-insit-box-card-pera p {
+        font-size: 12.5px;
+    }
+
+    /* Car Health Scan: Mobile Stack */
+    .apex-car-health-main-insit-heading {
+        margin-bottom: 28px;
+    }
+
+    .apex-car-health-main-insit-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .apex-car-health-main-insit-box-card {
+        width: 100%;
+        padding: 18px;
+        border-radius: 20px;
+    }
+
+    .apex-car-health-main-insit-box-card-idle:nth-last-child(2) {
+        margin-bottom: 20px;
+    }
+
+    .apex-car-health-main-insit-box-img {
+        width: 100%;
+        padding: 18px;
+        border-radius: 20px;
+    }
+
+    .apex-car-health-main-insit-box-img-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .apex-car-health-main-insit-box-img-box-card {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Live Garage: Mobile Stack */
+    .apex-live-garage-main-insit-heading {
+        margin-bottom: 28px;
+    }
+
+    .apex-live-garage-main-insit-box {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .apex-live-garage-main-insit-box-card {
+        width: 100%;
+        padding: 18px;
+        border-radius: 20px;
+    }
+
+    /* Dynamic Service Cost Calculator */
+    .apex-Dynamic-Service-main-insit {
+        padding: 0px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box {
+        padding: 20px 16px;
+        border-radius: 20px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-heading {
+        margin-bottom: 24px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle {
+        margin-bottom: 24px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card,
+    .apex-Dynamic-Service-main-insit-box-insit-Vehicle-box-card-Flagship {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 12px 14px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-detail {
+        margin-bottom: 24px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-detail-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-detail-box-card,
+    .apex-Dynamic-Service-main-insit-box-insit-detail-box-card-tune {
+        width: 100%;
+        padding: 14px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-lock-this {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding-top: 18px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-lock-this-text p:nth-last-child(1) {
+        font-size: 34px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-lock-this-btn {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 14px 20px;
+    }
+
+    /* Loved By (Reviews) */
+    .apex-Loved-by-main-insit-heading {
+        margin-bottom: 28px;
+    }
+
+    .apex-Loved-by-main-insit-box {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .apex-Loved-by-main-insit-box-card {
+        width: 100%;
+        padding: 18px;
+        border-radius: 20px;
+    }
+
+    .apex-Loved-by-main-insit-box-card-pera p {
+        font-size: 14px;
+    }
+
+    /* Book Your Slot */
+    .apex-book-your-slot-main-insit {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .apex-book-your-slot-main-insit-contact {
+        width: 100%;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-card {
+        justify-content: flex-start;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form {
+        width: 100%;
+        padding: 20px 16px;
+        border-radius: 20px;
+    }
+
+    /* Fix field labels alignment */
+    .apex-book-your-slot-main-insit-contact-box-form-name-pera {
+        display: none;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-name {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 16px;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-name input {
+        width: 100%;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-service {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 16px;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-service input {
+        width: 100%;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-service i {
+        right: 16px;
+        top: 60px;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-service-dropdawon {
+        top: 95px;
+        width: 100%;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-service-dropdawon p {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form-btn {
+        padding: 14px 20px;
+    }
+
+    /* Footer */
+    .apex-footer-main {
+        padding: 40px 0px 20px;
+    }
+
+    .apex-footer-main-insit {
+        padding: 16px 0px;
+    }
+
+    .apex-footer-main-insit-box {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .apex-footer-main-insit-logo {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .apex-footer-main-insit-list {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: flex-start;
+    }
+
+    .apex-footer-main-insit-list ul {
+        width: 45%;
+    }
+
+    .apex-footer-main-insit-text {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+        padding-top: 18px;
+    }
+}
+
+
+/* ==========================================================================
+   6. SMARTPHONES - REGULAR (max-width: 575px)
+   ========================================================================== */
+@media screen and (max-width: 575px) {
+
+    .container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    /* Headings */
+    .apex-our-core-main-insit-heading-our h1,
+    .apex-car-health-main-insit-heading-car h1,
+    .apex-live-garage-main-insit-heading-text h1,
+    .apex-Dynamic-Service-main-insit-box-heading-cost h1,
+    .apex-Loved-by-main-insit-heading-insit h1,
+    .apex-book-your-slot-main-insit-contact-heading h1 {
+        font-size: 26px;
+    }
+
+    /* Banner */
+    .apex-banner-main-insit-text-heading h1 {
+        font-size: 30px;
+    }
+
+    .apex-banner-main-insit-text-box {
+        gap: 12px;
+    }
+
+    .apex-banner-main-insit-text-box-card {
+        width: 48%;
+    }
+
+    .apex-banner-main-insit-text-box-card:last-child {
+        width: 100%;
+    }
+
+    .apex-banner-main-insit-img-main-insit {
+        padding: 12px;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text-aston-text h3 {
+        font-size: 15px;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text-aston-btn a {
+        font-size: 9px;
+    }
+
+    /* Car Health */
+    .apex-car-health-main-insit-box-img-text h4 {
+        font-size: 16px;
+    }
+
+    /* Dynamic Service */
+    .apex-Dynamic-Service-main-insit-box-insit-detail-box-card-text p {
+        font-size: 12px;
+    }
+
+    /* Footer: 1 Column lists on smaller devices */
+    .apex-footer-main-insit-list ul {
+        width: 100%;
+    }
+}
+
+
+/* ==========================================================================
+   7. SMALL SMARTPHONES (max-width: 480px)
+   ========================================================================== */
+@media screen and (max-width: 480px) {
+
+    .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    /* Headings */
+    .apex-our-core-main-insit-heading-our h1,
+    .apex-car-health-main-insit-heading-car h1,
+    .apex-live-garage-main-insit-heading-text h1,
+    .apex-Dynamic-Service-main-insit-box-heading-cost h1,
+    .apex-Loved-by-main-insit-heading-insit h1,
+    .apex-book-your-slot-main-insit-contact-heading h1 {
+        font-size: 23px;
+    }
+
+    /* Header on compact mobile (320px - 480px) */
+    .apex-header-main-insit {
+        padding: 8px 10px;
+    }
+
+    .apex-header-logo-main {
+        gap: 8px;
+    }
+
+    .apex-header-logo-main-text h1 {
+        font-size: 15px;
+    }
+
+    .apex-header-logo-main-text p {
+        font-size: 7.5px;
+    }
+
+    .apex-header-logo-main-icon {
+        width: 40px;
+        height: 32px;
+        border-radius: 10px;
+    }
+
+    .apex-header-logo-main-icon img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .apex-header-btn {
+        margin: 0 auto;
+        padding: 6px 10px;
+        border-radius: 10px;
+        gap: 6px;
+    }
+
+    .apex-header-btn-text a {
+        font-size: 10px;
+    }
+
+    .apex-header-btn-icon i {
+        font-size: 9.5px;
+    }
+
+    .apex-header-toggle-btn {
+        width: 34px;
+        height: 34px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    .apex-header-menu {
+        padding: 10px 8px;
+    }
+
+    .apex-header-menu ul li a {
+        padding: 10px 14px;
+        font-size: 12.5px;
+    }
+
+    /* Banner */
+    .apex-banner-main-insit-text-heading h1 {
+        font-size: 26px;
+    }
+
+    .apex-banner-main-insit-text-pera p {
+        font-size: 13px;
+    }
+
+    .apex-banner-main-insit-text-btn-main-book-btn a,
+    .apex-banner-main-insit-text-btn-main-run-text a {
+        font-size: 13px;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text-aston {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text-gloss {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    .apex-banner-main-insit-img-main-insit-text-gloss-perfecat {
+        margin-right: 0px;
+    }
+
+    /* Our Core */
+    .apex-our-core-main-insit-box-card {
+        padding: 15px;
+    }
+
+    .apex-our-core-main-insit-box-card-heading-text h5 {
+        font-size: 14px;
+    }
+
+    /* Live Garage */
+    .apex-live-garage-main-insit-box-card-box {
+        gap: 10px;
+    }
+
+    .apex-live-garage-main-insit-box-card-box-icon,
+    .apex-live-garage-main-insit-box-card-box-icon-bay,
+    .apex-live-garage-main-insit-box-card-box-icon-bmw {
+        width: 42px;
+        min-width: 42px;
+        height: 42px;
+    }
+
+    .apex-live-garage-main-insit-box-card-box-text h6,
+    .apex-live-garage-main-insit-box-card-box-text-im h6,
+    .apex-live-garage-main-insit-box-card-box-text-dig h6 {
+        font-size: 14px;
+    }
+
+    /* Dynamic Service Cost */
+    .apex-Dynamic-Service-main-insit-box {
+        padding: 16px 12px;
+    }
+
+    .apex-Dynamic-Service-main-insit-box-insit-lock-this-text p:nth-last-child(1) {
+        font-size: 28px;
+    }
+
+    /* Contact Details */
+    .apex-book-your-slot-main-insit-contact-box-card-text h6,
+    .apex-book-your-slot-main-insit-contact-box-card-mail a {
+        font-size: 14px;
+    }
+
+    .apex-book-your-slot-main-insit-contact-box-form {
+        padding: 18px 12px;
+    }
+}
